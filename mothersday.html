@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Mother's Day</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: pink;
+      color: #fff;
+      text-align: center;
+      background-image: url('https://i.ibb.co/SmVK7Cj/lily-background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .overlay {
+      background-color: rgba(255, 182, 193, 0.8);
+      padding: 50px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    .hearts {
+      font-size: 2em;
+      margin: 20px 0;
+      animation: floatHearts 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatHearts {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .photos img {
+      width: 200px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    audio {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Happy Mother's Day! 💐</h1>
+    <div class="hearts">💖 💕 💗 💞 💓 💝</div>
+    <p>Dear Mom,<br>
+      You are the heart of our family, the light of our lives, and my greatest blessing. I love you more than words can say.
+      Thank you for everything. Happy Mother’s Day! 💖
+    </p>
+
+    <div class="photos">
+      <!-- Add your mom's photos here -->
+      <img src="your-moms-photo1.jpg" alt="Mom">
+      <img src="your-moms-photo2.jpg" alt="Mom and You">
+    </div>
+
+    <!-- Background music (replace with your own if needed) -->
+    <audio controls autoplay loop>
+      <source src="your-music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
